@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gilang - Personal Info</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Poppins:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Navigation -->
+    <nav>
+      <div class="container">
+        <div class="logo">⧉</div>
+        <div class="nav-toggle" id="nav-toggle">
+          <div class="bar"></div>
+          <div class="bar"></div>
+          <div class="bar"></div>
+        </div>
+        <ul class="nav-menu">
+          <li><a href="#home" class="nav-link">Home</a></li>
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#skills" class="nav-link">Skills</a></li>
+          <li><a href="#projects" class="nav-link">Projects</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+      <div class="container">
+        <div class="hero-content">
+          <div class="hero-text">
+            <h1 class="fade-in">
+              Hi, I'm <span class="highlight">Gilang</span>
+            </h1>
+            <h2 class="typing-text">
+              I love <span id="typed-text"></span><span class="cursor">|</span>
+            </h2>
+            <p class="fade-in-delay">
+              A passionate developer focused on creating amazing digital
+              experiences.
+            </p>
+            <div class="hero-btns fade-in-delay-2">
+              <a href="#projects" class="btn primary-btn">View My Work</a>
+              <a href="#contact" class="btn secondary-btn">Contact Me</a>
+            </div>
+          </div>
+          <div class="hero-image">
+            <div class="profile-img">
+              <img src="Profil.jpg" alt="Gilang's profile" />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="scroll-down">
+        <a href="#about">
+          <span></span>
+          <span></span>
+          <span></span>
+        </a>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">About Me</h2>
+          <div class="section-underline"></div>
+        </div>
+        <div class="about-content">
+          <div class="about-image reveal-left">
+            <img
+              src="https://images.pexels.com/photos/4974914/pexels-photo-4974914.jpeg"
+              alt="Gilang Working"
+            />
+          </div>
+          <div class="about-text reveal-right">
+            <h3>Who am I?</h3>
+            <p>
+              I'm a high school graduate and beginner creative developer with a
+              strong passion for learning and building beautiful, functional
+              websites and applications. Although my journey in tech started
+              recently, I'm eager to grow and improve with every project I take
+              on.
+            </p>
+            <p>
+              Outside of coding, I enjoy exploring new design trends, playing
+              badminton, reading good books, and spending time playing games. I
+              believe that even small steps in technology can lead to meaningful
+              solutions, and I'm excited to be part of that journey.
+            </p>
+            <div class="about-details">
+              <div class="detail">
+                <i class="fas fa-graduation-cap"></i>
+                <div>
+                  <h4>Education</h4>
+                  <p>High School Graduate</p>
+                </div>
+              </div>
+              <div class="detail">
+                <i class="fas fa-location-dot"></i>
+                <div>
+                  <h4>Location</h4>
+                  <p>Jawa Timur, Indonesia</p>
+                </div>
+              </div>
+              <div class="detail">
+                <i class="fas fa-laptop-code"></i>
+                <div>
+                  <h4>Experience</h4>
+                  <p>3 Years Coding</p>
+                </div>
+              </div>
+              <div class="detail">
+                <i class="fas fa-heart"></i>
+                <div>
+                  <h4>Interests</h4>
+                  <p>Design, Tech, Music, Game</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">My Skills</h2>
+          <div class="section-underline"></div>
+        </div>
+        <div class="skills-content">
+          <div class="skills-text reveal-left">
+            <h3>What I can do</h3>
+            <p>
+              I'm a high school graduate and beginner creative developer with a
+              strong passion for learning and building beautiful, functional
+              websites and applications. Although my journey in tech started
+              recently, I'm eager to grow and improve with every project I take
+              on.
+            </p>
+            <p>
+              Outside of coding, I enjoy exploring new design trends, playing
+              badminton, reading good books, and spending time playing games. I
+              believe that even small steps in technology can lead to meaningful
+              solutions, and I'm excited to be part of that journey.
+            </p>
+          </div>
+          <div class="skills-bars reveal-right">
+            <div class="skill">
+              <div class="skill-info">
+                <span>HTML</span>
+                <span>95%</span>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-progress" data-progress="95"></div>
+              </div>
+            </div>
+            <div class="skill">
+              <div class="skill-info">
+                <span>CSS</span>
+                <span>95%</span>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-progress" data-progress="95"></div>
+              </div>
+            </div>
+            <div class="skill">
+              <div class="skill-info">
+                <span>JavaScript</span>
+                <span>15%</span>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-progress" data-progress="15"></div>
+              </div>
+            </div>
+            <div class="skill">
+              <div class="skill-info">
+                <span>UI/UX Design</span>
+                <span>80%</span>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-progress" data-progress="80"></div>
+              </div>
+            </div>
+            <div class="skill">
+              <div class="skill-info">
+                <span>C#</span>
+                <span>42%</span>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-progress" data-progress="42"></div>
+              </div>
+            </div>
+            <div class="skill">
+              <div class="skill-info">
+                <span>PHP</span>
+                <span>89%</span>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-progress" data-progress="89"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">My Projects</h2>
+          <div class="section-underline"></div>
+        </div>
+        <div class="projects-filter">
+          <button class="filter-btn active" data-filter="all">All</button>
+          <button class="filter-btn" data-filter="web">Web</button>
+          <button class="filter-btn" data-filter="app">App</button>
+          <button class="filter-btn" data-filter="design">Design</button>
+        </div>
+        <div class="projects-grid">
+          <div class="project-card" data-category="web">
+            <div class="project-img">
+              <img src="web.png" alt="E-commerce Website" />
+            </div>
+            <div class="project-info">
+              <h3>E-commerce Platform</h3>
+              <p>
+                A modern online store with cart system and secure payment
+                gateway.
+              </p>
+              <div class="project-tags">
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>JavaScript</span>
+                <span>PHP</span>
+              </div>
+            </div>
+          </div>
+          <div class="project-card" data-category="app">
+            <div class="project-img">
+              <img src="game.png" alt="Game Development" />
+            </div>
+            <div class="project-info">
+              <h3>Game Development</h3>
+              <p>
+                An action-packed battle game with custom characters and
+                mechanics.
+              </p>
+              <div class="project-tags">
+                <span>Unity</span>
+                <span>C#</span>
+                <span>Character Design</span>
+              </div>
+            </div>
+          </div>
+          <div class="project-card" data-category="design">
+            <div class="project-img">
+              <img src="figma.png" alt="Brand Identity" />
+            </div>
+            <div class="project-info">
+              <h3>Brand Identity Design</h3>
+              <p>
+                A complete visual branding for a tech startup, including logo
+                and UI style.
+              </p>
+              <div class="project-tags">
+                <span>UI/UX</span>
+                <span>Figma</span>
+                <span>Branding</span>
+              </div>
+            </div>
+          </div>
+          <div class="project-card" data-category="web">
+            <div class="project-img">
+              <img
+                src="https://images.pexels.com/photos/39284/macbook-apple-imac-computer-39284.jpeg"
+                alt="Portfolio Site"
+              />
+            </div>
+            <div class="project-info">
+              <h3>Portfolio Website</h3>
+              <p>
+                A clean and responsive personal website made for a
+                photographer's work.
+              </p>
+              <div class="project-tags">
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>JavaScript</span>
+              </div>
+            </div>
+          </div>
+          <div class="project-card" data-category="app">
+            <div class="project-img">
+              <img src="dart.png" alt="E-Commerce App" />
+            </div>
+            <div class="project-info">
+              <h3>E-Commerce Application</h3>
+              <p>
+                A Flutter-based mobile app for browsing products and placing
+                orders.
+              </p>
+              <div class="project-tags">
+                <span>Flutter</span>
+                <span>Dart</span>
+              </div>
+            </div>
+          </div>
+          <div class="project-card" data-category="design">
+            <div class="project-img">
+              <img
+                src="https://images.pexels.com/photos/326503/pexels-photo-326503.jpeg"
+                alt="Mobile UI Kit"
+              />
+            </div>
+            <div class="project-info">
+              <h3>Mobile UI Kit</h3>
+              <p>
+                A complete UI kit for mobile apps with reusable design
+                components.
+              </p>
+              <div class="project-tags">
+                <span>UI/UX</span>
+                <span>Dart</span>
+                <span>Design System</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">Get In Touch</h2>
+          <div class="section-underline"></div>
+        </div>
+        <div class="contact-content">
+          <div class="contact-info reveal-left">
+            <h3>Let's Talk</h3>
+            <p>
+              I'm always open to new opportunities and collaborations. Feel free
+              to reach out!
+            </p>
+            <div class="contact-details">
+              <div class="contact-item">
+                <i class="fas fa-envelope"></i>
+                <div>
+                  <h4>Email</h4>
+                  <p>gilang@example.com</p>
+                </div>
+              </div>
+              <div class="contact-item">
+                <i class="fas fa-phone"></i>
+                <div>
+                  <h4>Phone</h4>
+                  <p>+62 812 3456 7890</p>
+                </div>
+              </div>
+              <div class="contact-item">
+                <i class="fas fa-location-dot"></i>
+                <div>
+                  <h4>Location</h4>
+                  <p>Jakarta, Indonesia</p>
+                </div>
+              </div>
+            </div>
+            <div class="social-links">
+              <a href="https://github.com/satriya4Get" class="social-link"
+                ><i class="fab fa-github"></i
+              ></a>
+              <a href="www.linkedin.com/in/gilangsatriyap" class="social-link"
+                ><i class="fab fa-linkedin-in"></i
+              ></a>
+              <a
+                href="https://www.instagram.com/satriya__1/"
+                class="social-link"
+                ><i class="fab fa-instagram"></i
+              ></a>
+              <a href="https://x.com/Buk4nWibu" class="social-link"
+                ><i class="fab fa-twitter"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-logo">⧉</div>
+          <p>&copy; 2025 Gilang. All Rights Reserved.</p>
+          <div class="footer-links">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+          </div>
+        </div>
+      </div>
+      <div class="back-to-top">
+        <a href="#home"><i class="fas fa-arrow-up"></i></a>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
